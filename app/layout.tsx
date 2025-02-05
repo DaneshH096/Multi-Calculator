@@ -4,6 +4,11 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Danesh Hosur',
   description: 'Created with v0',
+  icons: {
+    icon: "/logo.avif", // Default favicon
+    shortcut: "/logo.avif",
+    apple: "/logo.avif", // For Apple devices
+  },
 }
 
 export default function RootLayout({
