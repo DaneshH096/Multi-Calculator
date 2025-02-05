@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
+  title: 'Danesh Hosur',
   description: 'Created with v0',
 }
 
@@ -13,6 +13,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6397736238534112"
+       crossorigin="anonymous"></script>
+      </head>
       <body>{children}</body>
     </html>
   )
