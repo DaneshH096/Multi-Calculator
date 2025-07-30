@@ -4,7 +4,9 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'All in one Calculator',
   description: 'Created buy Danesh Hosur',
-  generator: 'v0.dev',
+  icons: {
+    icon:'/logo.png',
+  },
 }
 
 export default function RootLayout({
